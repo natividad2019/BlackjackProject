@@ -1,0 +1,15 @@
+dictionary has key value pair : 
+
+key - Value 
+Bug  - An error in a program that prevents the program from running as expected.
+
+programming_dictionary = {
+  "Bug":"An error in a program that prevents the program from running as expected."
+}
+
+print(programmming_dictionary["Bug"])
+
+ {
+    key : [list of values]
+    key2 : {dict}
+  }

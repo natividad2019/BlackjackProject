@@ -1,0 +1,65 @@
+Summary of the Hangman Game
+Hangman is a game where you try to guess a hidden word. The word is shown as a series of blanks. You guess one letter at a time. If the letter is in the word, it fills in the blanks. If the letter is not in the word, you lose a life. You win if you guess the word before you run out of lives. You lose if you run out of lives before guessing the word.
+
+
+
+
+
+
+
+
+
+step 5 : Hangman game where a player guesses letters to uncover a hidden word. The player wins by guessing all letters correctly or loses if they run out of lives.
+
+Step-by-Step Explanation
+Imports and Setup:
+
+Import necessary modules and lists:
+random for random selection.
+word_list from another file (hangman_words.py).
+logo and stages from another file (hangman_art.py).
+Choose a Random Word:
+
+Pick a random word from the word_list.
+Find out how many letters are in this word.
+Initialize Game Settings:
+
+Set end_of_game to False (the game continues).
+Set lives to 6 (number of wrong guesses allowed).
+Display the Game Logo:
+
+Print the logo to start the game.
+Testing Code:
+
+Print the chosen word (just for testing purposes, not part of the actual game).
+Create Blanks:
+
+Create a list of underscores (_), one for each letter in the chosen word.
+Game Loop:
+
+Keep asking the player to guess a letter until the game ends (end_of_game becomes True).
+Handle Player's Guess:
+
+Ask the player to guess a letter and convert it to lowercase.
+Check for Repeated Guess:
+
+If the player guesses a letter they already guessed, inform them.
+Check the Guessed Letter:
+
+Compare the guessed letter to each letter in the chosen word.
+If it matches, replace the corresponding underscore with the letter.
+Wrong Guess Handling:
+
+If the guessed letter is not
+in the chosen word, inform the player and subtract one life.
+- If the player has no lives left, end the game and print "You lose."
+
+Update Display:
+
+Join the list of letters (and underscores) into a string and print it to show the current state of the word.
+Check for Win:
+
+If there are no more underscores in the display, the player has guessed all letters correctly, end the game, and print "You win."
+Display Hangman Stages:
+
+Print the current stage of the hangman graphic based on the remaining lives.

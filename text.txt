@@ -1,0 +1,25 @@
+In step 4, we will keep track of the player's lives in the Hangman game. We will create a variable to count the lives, reduce the count when a wrong guess is made, end the game when lives run out, and show the hangman picture based on the remaining lives.
+
+Explanation Points
+Create the lives Variable:
+
+Make a new variable called lives.
+Set lives to 6.
+Check if Guess is Incorrect:
+
+Use an if statement to check if the guessed letter is not in the chosen word.
+If the guess is wrong, subtract 1 from lives.
+End Game When Lives are Zero:
+
+After subtracting lives, check if lives is zero.
+If lives is zero, end the game and print "You lose."
+Display Hangman Stages:
+
+Show the hangman picture that matches the current number of lives.
+Avoid Placing the Condition Inside the Loop:
+
+Put the check for wrong guesses outside the for loop to avoid subtracting lives multiple times for one wrong guess.
+Use of Print Statements for Debugging:
+
+Use print statements to see the current game state and help find and fix any problems in the code.
+These points will help you understand and implement the steps to manage lives and update the hangman display in the game.

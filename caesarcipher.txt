@@ -1,0 +1,30 @@
+The Caesar cipher game is a fun and educational activity where students learn to encode and decode secret messages by shifting letters in the alphabet. For example, if we use a shift of 3, 'A' becomes 'D', 'B' becomes 'E', and 'HELLO' becomes 'KHOOR'. Students can practice making and breaking these codes, helping them understand how basic secret codes work and improving their problem-solving skills while having fun.
+
+Encode: To encode is to convert plain text into a secret code or encrypted format. This process makes the message unreadable to anyone who does not know how to decode it. For example, in the Caesar cipher, shifting each letter by a certain number of places in the alphabet is a way to encode the message.
+
+Decode: To decode is to convert an encoded or encrypted message back into plain text. This process makes the message readable again. In the Caesar cipher, shifting each letter back by the same number of places used to encode it is how you decode the message.
+
+
+Encode:
+If we want to encode the word "HELLO" using a Caesar cipher with a shift of 3:
+
+'H' becomes 'K'
+'E' becomes 'H'
+'L' becomes 'O'
+'L' becomes 'O'
+'O' becomes 'R'
+So, "HELLO" encodes to "KHOOR".
+Decode:
+To decode "KHOOR" back to "HELLO" using a Caesar cipher with a shift of 3:
+
+'K' becomes 'H'
+'H' becomes 'E'
+'O' becomes 'L'
+'O' becomes 'L'
+'R' becomes 'O'
+So, "KHOOR" decodes to "HELLO".
+
+
+Encode: To convert plain text into a secret code or encrypted format to keep the message unreadable to unauthorized people.
+
+Decode: To convert an encoded or encrypted message back into plain text to make the message readable again.
