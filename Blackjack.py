@@ -108,7 +108,7 @@ while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y"
 
 
 
-
+# List, Tuple, Set, Dictionary, For Loop and while loop and if else statements
 
   
 # Remember that you can only call a function after its been declared

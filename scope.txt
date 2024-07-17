@@ -1,0 +1,26 @@
+What is Scope in Python?
+Scope in Python refers to the region of the code where a particular variable can be accessed. 
+School(Global scope)
+Classroom(Local scope)
+Teachers(Function)
+
+Global Scope: Variables defined outside any function or block belong to the gloabal scope.
+They are accessible from anywhere in the code.
+Local Scope: Variables defind inside a function belong to the local scope. They can only be accessed within the function. 
+
+
+# Namespaces
+Namespaces are like different directories where variables are stored. There are three main types:
+1. Built in Namespace: Contain Python's built in functions and exceptions
+2. Global Namespace: Contains variables defined at the top level of a script or module
+2. Local Namespace: Contians local variables inside a function
+
+# Does python have Block Scope?
+Python does not have block scope like some other programming languages(eg: Javascript). In python variables defined within a block(like within an if statemetn or a loop) are scoped to the function or the module they are defined in, not to the block itself.
+
+Python does not have block scope like c++ or Java. This means that variables defined inside loops or if statments are still accessible outside of those blocks
+
+Constants and Global Scope
+In Python , constants are usually defind at the top of a script in all UPPERCASE LETTERS. While Python deos not enforce constant behavior(like const in some other languages), its a convention.
+
+
